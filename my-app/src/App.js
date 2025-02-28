@@ -1,13 +1,14 @@
-import './App.css';
+// App.js
 
+import './App.css';
 import CountryInformation from './components/CountryInformation';
 
-function app (){
-    return (
-        <div className="App">   
-            <CountryInformation />
-        </div>
-    )
+function App() {
+  return (
+    <div className="App">
+      <CountryInformation />
+    </div>
+  );
 }
 
-export default app  
+export default App;
